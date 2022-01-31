@@ -1,0 +1,17 @@
+Note: import {something} from library - curly braces if exported directly i.e. without using default keyword arguments in the export statement
+
+1.npx create-next-app -e with-tailwindcss <app_name>
+2.hit spotify developers -> dashboard -> create an app
+3.npm i @heroicons/react
+4.npm i next-auth
+ -change the provider in our case it'll be spotify
+5.create .env.local file and put the env variables
+6.generate jwt by this cmd - echo -n "somevalue" | openssl sha512 -hmac "somekey"
+(stdin)=
+7.Whenever u add ur env variable restart the server
+8.create a new folder named lib -> spotify.js which will act as a utility file
+9.Go to -> https://github.com/thelinmichael/spotify-web-api-node
+10.Install the api 
+11.https://next-auth.js.org/tutorials/refresh-token-rotation
+12.We use recoil for global state management which is better than redux
+13.npm i recoil
